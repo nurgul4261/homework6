@@ -79,6 +79,11 @@ header {
   cursor: pointer;
 }
 
+.icon-close {
+  width: 16px;
+  height: 16px;
+}
+
 .menu-button {
   display: none;
   cursor: pointer;
@@ -870,7 +875,65 @@ img {
     height: 436px;
   }
 
+  .hero-title {
+    padding: 112px 136px;
+  }
+
+  .hero-button {
+    margin-bottom: 144px;
+  }
+
+  .services-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+
+  }
+
+  .services-list-item {
+    width: 330px;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+  }
+
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 108px;
+  }
   
+  .team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+
+  .portfolio-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .footer-text {
+    width: 264px;
+    height: 112px;
+    margin: 100px 108px;
+  }
+
+  .subscribe-container {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 /*Laptop*/
@@ -1037,7 +1100,7 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 1440px;
+  width: 100%;
   height: 780px;
   padding-left: 156px;
   padding-right: 156px;
@@ -1049,6 +1112,8 @@ img {
 
 .team {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-around;
   width: 1440px;
@@ -1232,6 +1297,7 @@ img {
 
 .portfolio-list { 
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 0;
@@ -1273,7 +1339,10 @@ img {
 }
 
 .footer {
+  width: 100%;
+  height: 312px;
   display: flex;
+  flex-direction: row;
   height: 312px;
   background-color: #2E2F42;
   justify-content: flex-start;
