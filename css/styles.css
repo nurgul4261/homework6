@@ -795,7 +795,7 @@ img {
 }
 
 .modal-window {
-  width: 288;
+  width: 288px;
   height: 623px;
   max-width: 408px;
   border-radius: 4px;
@@ -805,6 +805,7 @@ img {
   display: flex;
   flex-direction: column;
   position: relative;
+  padding-right: 16px;
 
 
 }
@@ -1036,7 +1037,7 @@ textarea[name="comment"]:focus {
   }
 
   .textarea {
-    width: 256px;
+    width: 100%;
     padding-left: 24px;
   }
 
@@ -1330,7 +1331,7 @@ textarea[name="comment"]:focus {
   }
 
   .textarea {
-    max-width: 360px;
+    width: 100%;
     height: 120px;
     padding-left: 24px;
     margin-bottom: 10px;
